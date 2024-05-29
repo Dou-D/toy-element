@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Toy-Element",
   description: "dou's Element-plus components lib",
+  base: '/toy-element/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
